@@ -5,12 +5,8 @@ html {
 
 .modal {
   top: 38px;
-  /* right: 50px;
-  bottom: 0;
-  left: 0;
-  z-index: 10040;
-  overflow: auto;
-  overflow-y: auto; */
+  /* width: 1500px;
+  max-width: 100%; */
 }
 
 body {
