@@ -118,8 +118,63 @@
         <div class="col-md-6 col-lg-4 col-xs-12">
           <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
             <div class="services-content">
+              <h3><a href="#">Note Taking App
+                <br />
+              </a></h3>
+              <img class="img-fluid" src="assets/img/ScratchApp.png" alt="">
+              <br />
+              <center>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#scratchModalFull">
+                  <center>See more</center>
+              </button>
+              <button class="btn btn-primary" onclick="window.open('https://github.com/ftweedy?tab=repositories', '_blank'); return false;">
+                <center>The Code, serverless-stack-(api/client) for API and Frontend</center>
+              </button> 
+              </center>
+            </div>
+          </div>  
+          <!-- Modal -->
+          <div class="modal fade" id="scratchModalFull" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg" >
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="scratchModalLabel">Notes App</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <table>
+                    <tr>
+                      <td>
+                        <img class="img-fluid" src="assets/img/ScratchNew.png"  alt="">
+                      </td>
+                      <td >
+                        This app was built following the Serverless-Stack tutorial.  Following the instructions, 
+                        I built a Full-Stack Lambda-Serverless Javascript app that uses Stripe and AWS DynamoDB, Cognito and S3.
+                        While I stopped short of full webhosting, the App is complete and ready for deployment with full Amazon, Stripe and user authentication.
+                      </td>
+                    </tr>
+                  </table>
+                  </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" disabled>Javascript</button>
+                  <button type="button" class="btn btn-secondary" disabled>React</button>
+                  <button type="button" class="btn btn-secondary" disabled>GoogleMap</button>
+                  <button type="button" class="btn btn-secondary" disabled>Ruby</button>
+                  <button type="button" class="btn btn-secondary" disabled>Rails</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project item -->
+        <div class="col-md-6 col-lg-4 col-xs-12">
+          <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+            <div class="services-content">
               <h3><a href="#">TrustFlag FullStack 
-                <br />(work in progress)
+                <br />
               </a></h3>
               <img class="img-fluid" src="assets/img/ZooLogIn.png" alt="">
               <br />
@@ -150,7 +205,7 @@
                         <img class="img-fluid" src="assets/img/homePage.png"  alt="">
                       </td>
                       <td >
-                        This is my current personal project.  I am rebuilding the entire website, replacing the Java/Spring backend with RubyOnRails.  The map has been temporarily disabled to avoid extra charges.  This page and code will be updated as the project progresses.
+                        For this project, I rebuilt the Zoohackathon project website, replacing the Java/Spring backend with RubyOnRails.  The map has been disabled to avoid extra charges.
                       </td>
                     </tr>
                   </table>
